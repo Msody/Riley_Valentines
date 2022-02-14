@@ -1,8 +1,32 @@
+* {
+  border: solid 1px black;
+}
+
 html {
   font-size: 16px;
 }
 body {
   max-width: 1600px;
   text-align: center;
-  background-color: yellow;
+  background-color: white;
+}
+.pics {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  background-color: #fee440;
+  z-index: 1;
+}
+.pic_size {
+  padding-top: 50px;
+  width: 80%;
+  height: 80%;
+}
+header {
+  background-color: #219ebc;
+  z-index: 1;
+}
+.text3 {
+  background-color: white;
 }
