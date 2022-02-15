@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid 1px black;
-}
+} */
 
 html {
   font-size: 16px;
@@ -12,21 +12,48 @@ body {
 }
 .pics {
   display: grid;
-  grid-template-columns: repeat(5, 250px);
-  grid-template-rows: 1fr;
-  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 400px;
+  align-content: center;
   background-color: #fee440;
-  z-index: 1;
 }
 .pic_size {
   padding-top: 50px;
   width: 80%;
   height: 80%;
 }
+.pics1 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 400px);
+  justify-content: center;
+  background-color: #fee440;
+}
+.pic_size1 {
+  padding-top: 50px;
+  width: 80%;
+  height: 80%;
+}
+
 header {
-  background-color: #219ebc;
-  z-index: 1;
+  background-color: #f94144;
 }
 .text3 {
-  background-color: white;
+  background-color: #219ebc;
+  margin-top: -20px;
+  margin-bottom: -17px;
+  padding-bottom: 1px;
+}
+.text4 {
+  background-color: #219ebc;
+  margin-bottom: -17px;
+}
+.text5 {
+  background-color: #219ebc;
+  margin-top: -20px;
+  margin-bottom: -17px;
+  padding-bottom: 1px;
+}
+.text6 {
+  background-color: #219ebc;
 }
